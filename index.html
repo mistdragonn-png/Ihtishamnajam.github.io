@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Black & Neon Red Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="glow-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo"><span class="neon-text">&lt;</span>Welcome To<span class="neon-dot">.</span><span class="neon-red">My Portfolio</span><span class="neon-text">&gt;</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-btn btn-neon">Contact Me</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="status-badge"><span class="pulse-dot"></span> Available for Work</div>
+            <h1 class="hero-title">Ihtisham's <span class="neon-red-glow">Portfolio</span> & Intro Page</h1>
+            <p class="hero-subtitle">Welcome to my portfolio! Here, you will find everything about my technical background, projects, and expertise.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">ABOUT <span class="neon-red">ME</span></h2>
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <h3>Who I Am</h3>
+                    <p>Hi! Im Ihtisham Najam, currently pursuing my degree at FAST NUCES (Batch of 2026). I am passionate about cybersecurity, specializing in Ethical Hacking, Computer Networking, and building high-performance applications with Python.</p>
+                </div>
+                <div class="about-stats glass-card">
+                    <div class="stat-item">
+                        <span class="stat-number neon-red">5+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number neon-red">40+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number neon-red">99%</span>
+                        <span class="stat-label">Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">TECHNICAL <span class="neon-red">SKILLS</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <div class="skill-info">
+                        <span>Ethical Hacking</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-info">
+                        <span>Networking</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 92%;"></div></div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-info">
+                        <span>Red Team</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">FEATURED <span class="neon-red">PROJECTS</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-tag">Cyberpunk Web App</div>
+                    <h3>Seure-Vault</h3>
+                    <p>Real-time data sharing between two devices . Fully Encrypted And Based on P2P connection.Its Basically Fully Security Based App.</p>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-tag">Anti-Virus</div>
+                    <h3>Vortex Virus Detector</h3>
+                    <p>Ultra-fast Virus dettecting machanism that would store all the modern signatures hat are used in modern Payloads and Other viruses.It kill Instantly .</p>
+                <div class="project-card glass-card">
+                    <div class="project-tag">Intro</div>
+                    <h3>Digital Intro-App</h3>
+                    <p>This will Be my Intro Page . With All Of My apps</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">GET IN <span class="neon-red">TOUCH</span></h2>
+            <form class="contact-form glass-card">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dark Neon Portfolio. Built with HTML & CSS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
